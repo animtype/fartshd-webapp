@@ -5,9 +5,10 @@ A rambunctious webapp to waft away the most serious of days. Farts HD is perfect
 Homepage is a validated AMP page: https://fartshd.com
 
 # FartsHD webapp from 2012, and it still works like a charm.
-Webapp is a jQuery+transit+iScroll JavaScript page made back in 2010. Initially had worked for IE8, IE9, first Chrome and Firefox back to early 4.0 version, before a major overhaul took place. In 2012 a new version emerged with the full support of mobile screens. And since then no major released has been committed. https://fartshd.com/app 
+Webapp is a jQuery+transit+iScroll JavaScript page made back in 2010. Initially had worked for IE8, IE9, first Chrome and Firefox back to early 4.0 version, before a major facelift took place. In 2012 a new version emerged with the full support of mobile screens. And since then no major released has been committed. https://fartshd.com/app 
 
-
+# Phonegap
+In 2012 a Phonegap version was published for Windows mobile OS, iOS 4 and Android 2.4. Since 2016 all apps have been removed from stores due to lack of PG score (languages and imagery) and Cordova security holes.
 
 # Copyright
 1. All copyright, trade marks and all other intellectual property rights in the Site or App and its content (including without limitation the Site or App design, text, graphics and all software and source codes connected with the Site or App) are owned by or licensed to Animtype or otherwise used by us as permitted by law.
