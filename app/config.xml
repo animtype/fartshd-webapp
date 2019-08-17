@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.animtypecom.fartshd"
+        version   = "1.5.1">
+
+    <name>Farts HD</name>
+
+    <description>
+	A rambunctious app to waft away the most serious of days. Farts HD is perfect for connoisseurs or amateur farters, providing a smorgasbord of fart sounds for all occasions. Featuring a variety of backdoor trumpet noises, fart games and even a unique Fart Composer - putting the power of the fart in your hands!
+    </description>
+
+
+    <author href="http://www.animtype.com" email="dr.animtype@gmail.com">
+        Dr.Animtype
+    </author>
+
+    <preference name="permissions"                value="none"/>
+
+	
+	<!-- Customize your app and platform with the preference element. -->
+    <preference name="phonegap-version"           value="3.5.0" />          <!-- all: current version of PhoneGap -->
+    <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
+    <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
+    <preference name="fullscreen"                 value="true" />           <!-- all: hides the status bar at the top of the screen -->
+    <preference name="webviewbounce"              value="true" />           <!-- ios: control whether the screen 'bounces' when scrolled beyond the top -->
+    <preference name="prerendered-icon"           value="true" />           <!-- ios: if icon is prerendered, iOS will not apply it's gloss to the app's icon on the user's home screen -->
+    <preference name="stay-in-webview"            value="false" />          <!-- ios: external links should open in the default browser, 'true' would use the webview the app lives in -->
+    <preference name="ios-statusbarstyle"         value="black-opaque" />   <!-- ios: black-translucent will appear black because the PhoneGap webview doesn't go beneath the status bar -->
+    <preference name="detect-data-types"          value="true" />           <!-- ios: controls whether data types (such as phone no. and dates) are automatically turned into links by the system -->
+    <preference name="exit-on-suspend"            value="false" />          <!-- ios: if set to true, app will terminate when home button is pressed -->
+    <preference name="show-splash-screen-spinner" value="true" />           <!-- ios: if set to false, the spinner won't appear on the splash screen during app loading -->
+    <preference name="auto-hide-splash-screen"    value="true" />           <!-- ios: if set to false, the splash screen must be hidden using a JavaScript API -->
+    <preference name="disable-cursor"             value="false" />          <!-- blackberry: prevents a mouse-icon/cursor from being displayed on the app -->
+    <preference name="android-minSdkVersion"      value="10" />            <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
+    <preference name="android-targetSdkVersion"   value="18" /> 
+    <preference name="android-installLocation"    value="auto" />           <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->	
+	
+	
+	
+    <!-- Define app icon for each platform. -->
+    <icon src="icon.png" />
+    <icon src="res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:density="ldpi" />
+    <icon src="res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:density="mdpi" />
+    <icon src="res/icon/android/icon-72-hdpi.png"   gap:platform="android"    gap:density="hdpi" />
+    <icon src="res/icon/android/icon-96-xhdpi.png"  gap:platform="android"    gap:density="xhdpi" />
+    <icon src="res/icon/blackberry/icon-80.png"     gap:platform="blackberry" />
+    <icon src="res/icon/blackberry/icon-80.png"     gap:platform="blackberry" gap:state="hover"/>
+    <icon src="res/icon/ios/icon-57.png"            gap:platform="ios"        width="57" height="57" />
+    <icon src="res/icon/ios/icon-72.png"            gap:platform="ios"        width="72" height="72" />
+    <icon src="res/icon/ios/icon-57-2x.png"         gap:platform="ios"        width="114" height="114" />
+    <icon src="res/icon/ios/icon-72-2x.png"         gap:platform="ios"        width="144" height="144" />
+    <icon src="res/icon/webos/icon-64.png"          gap:platform="webos" />
+    <icon src="res/icon/windows-phone/icon-48.png"  gap:platform="winphone" />
+    <icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone"   gap:role="background" />
+
+	<!-- android -->
+    <gap:splash src="res/screen/android/screen-mdpi.9.png"  gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="res/screen/android/screen-mdpi.9.png"  gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="res/screen/android/screen-hdpi.9.png"  gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="res/screen/android/screen-xhdpi.9.png" gap:platform="android" gap:density="xhdpi" /> 
+
+	<!-- app other -->	
+    <gap:splash src="res/screen/blackberry/screen-225.png"         gap:platform="blackberry" />
+	<gap:splash src="res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone" />
+	
+	<!-- ios app -->
+    <gap:splash src="res/screen/ios/screen-ipad-landscape-2x.png"	width="2048" height="1496" gap:platform="ios" />
+    <gap:splash src="res/screen/ios/screen-ipad-portrait-2x.png" 	width="1536" height="2008" gap:platform="ios" />	
+	<gap:splash src="res/screen/ios/screen-ipad-landscape.png"		width="1024" height="748"  gap:platform="ios" />
+    <gap:splash src="res/screen/ios/screen-ipad-portrait.png"       width="768"  height="1004" gap:platform="ios" />	
+    <gap:splash src="res/screen/ios/screen-iphone-landscape-2x.png"	width="960"  height="640"  gap:platform="ios" />
+    <gap:splash src="res/screen/ios/screen-iphone-portrait-2x.png"	width="640"  height="960"  gap:platform="ios" />	
+	<gap:splash src="res/screen/ios/screen-iphone-landscape.png"    width="480"  height="320"  gap:platform="ios" />
+    <gap:splash src="res/screen/ios/screen-iphone-portrait.png"     width="320"  height="480"  gap:platform="ios" />
+	<gap:splash src="res/screen/ios/screen-iphone-portrait-568h-2x.png" width="640"  height="1136"  gap:platform="ios" />
+	
+	<!-- plugins -->
+	<gap:plugin name="org.apache.cordova.device" />
+	<gap:plugin name="org.apache.cordova.device-motion" />
+	<gap:plugin name="org.apache.cordova.inappbrowser" />
+	<gap:plugin name="org.apache.cordova.vibration" version="0.3.7" />
+	<gap:plugin name="com.adobe.plugins.gaplugin" />
+	<gap:plugin name="nl.x-services.plugins.socialsharing" />
+
+	<!--  
+		those upper plugins only request:
+		******************************************************
+		PRIVACY
+		- modify or delete the contents of your USB storage
+		- read the contents of your USB storage
+		DEVICE ACCESS
+		- full network access
+		- view network connections
+	
+		MEDIA is a problamatic one
+		MEDIA requries the following ones:
+		phonegap version: 3.2.0
+		media version: 0.2.4
+		******************************************************
+		PRIVACY
+		- record audio
+		DEVICE ACCESS
+		- change your audio settings
+		
+	-->	
+	<gap:plugin name="org.apache.cordova.media" version="0.2.4" /> 
+	
+	<access origin="*"/><!-- allow local pages -->
+	
+	<access origin="http://www.animtype.com" />
+	<access origin="http://www.fartshd.com" />	  
+
+</widget>

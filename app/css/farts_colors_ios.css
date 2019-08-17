@@ -1,0 +1,389 @@
+/* copyright Dr.Peter */
+.block {
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
+}
+.radius {
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+}
+.title {
+	bottom: 12px;
+	width: 100%;
+	text-align: center;
+	left: 0px;
+	color: #fff;
+	font-size: 0.98em;
+	font-family: "Lato", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+#header {
+	background-color: rgba(255,255,255,1);
+	border-bottom: 4px solid rgba(0,0,0,0.2);
+}
+#header .icons {
+	background-color: rgba(0,0,0,0.1);
+}
+#header .icons:hover {
+	background-color: rgba(0,0,0,0.2);	
+}
+#header_name {
+	color: rgba(0,0,0,1);
+}
+.gradient {
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(0,175,255,0.3)), color-stop(0.7, rgba(255,255,255,0.2)));
+	background-image: -ms-linear-gradient(bottom, rgba(0,175,244,0.3) 10%, rgba(255,255,255,0.2) 70%);
+}
+.color_bg {
+	background-color: #eee;
+}
+.color_black {
+	background-color: #111111;
+}
+.color_gray {
+	background-color: #777777;
+}
+.color_white {
+	background-color: #eeeeee;
+}
+.color_editors {
+	background-color: #5751d9;
+}
+.color_favor {
+	background-color: #ffcd00;	
+}
+.color_app_timer {
+	background-color: #54c7fc;	
+}
+.color_app_memory {
+	background-color: #8451d9;	
+}
+.color_fartsays {
+	background-color: #26b2b0;	
+}
+.color_male {
+	background-color: #0076ff;	
+}
+.color_female {
+	background-color: #ff2851;	
+}
+.color_old {
+	background-color: #2a7d9f;	
+}
+.color_info {
+	background-color: #323232;	
+}
+.color_list {
+	background-color: #44db5e;	
+}
+.color_sweeper {
+	background-color: #ff9600;	
+}
+.color_hidefart {
+	background-color: #c43627;	
+}
+.color_piano {
+	background-color: #247679;	
+}
+.color_puzzle {
+	background-color: #05388b;	
+}
+.color_shake {
+	background-color: #111111;	
+}
+.color_mix {
+	background-color: #5F0000;	
+}
+.color_settings {
+	background-color: #333366;	
+}
+
+
+.color_settings .icon {
+	background-image: url(ios/icon_settings.png);
+}
+.color_random .icon {
+	background-image: url(ios/icon_play.png);
+}
+.color_editors .icon {
+	background-image: url(ios/icon_farts.png);
+}
+.color_app_timer .icon {
+	background-image: url(ios/icon_restart.png);
+}
+.color_app_memory .icon {
+	background-image: url(ios/icon_memory.png);
+}
+.color_fartsays .icon {
+	background-image: url(ios/icon_sound.png);
+}
+.color_info .icon {
+	background-image: url(ios/icon_info.png);
+}
+.color_list .icon {
+	background-image: url(ios/icon_folder.png);
+}
+.color_sweeper .icon {
+	background-image: url(ios/icon_hide.png);
+}
+.color_hidefart .icon {
+	background-image: url(ios/icon_alert.png);
+}
+.color_piano .icon {
+	background-image: url(ios/icon_piano.png);
+}
+.color_puzzle .icon {
+	background-image: url(ios/icon_puzzle.png);
+}
+.color_shake .icon {
+	background-image: url(ios/icon_shake.png);
+}
+.color_mix .icon {
+	background-image: url(ios/icon_mix.png);
+}
+.color_male .icon {
+	background-image: url(ios/icon_men.png);
+}
+.color_female .icon {
+	background-image: url(ios/icon_female.png);
+}
+.color_old .icon {
+	background-image: url(ios/icon_old.png);
+}
+.color_favor .icon {
+	background-image: url(ios/icon_starts.png);
+}
+
+
+
+/* splash screen */
+#splashscreen {
+	background-image: url(bg/fartshd.png);	
+}
+
+/* I C O N S */
+.icon_add { background-image: url(ios/icon_add.png); }
+.icon_alert { background-image: url(ios/icon_alert.png); }
+.icon_back { background-image: url(ios/icon_back.png); }
+.icon_bass { background-image: url(ios/icon_bass.png); }
+.icon_car { background-image: url(ios/icon_car.png); }
+.icon_detected { background-image: url(ios/icon_detected.png); }
+.icon_farts { background-image: url(ios/icon_farts.png); }
+.icon_fav { background-image: url(ios/icon_fav.png); }
+.icon_female { background-image: url(ios/icon_female.png); }
+.icon_folder { background-image: url(ios/icon_folder.png); }
+.icon_forward { background-image: url(ios/icon_forward.png); }
+.icon_hide { background-image: url(ios/icon_hide.png); }
+.icon_info { background-image: url(ios/icon_info.png); }
+.icon_memory { background-image: url(ios/icon_memory.png); }
+.icon_men { background-image: url(ios/icon_men.png); }
+.icon_mix { background-image: url(ios/icon_mix.png); }
+.icon_nuclear { background-image: url(ios/icon_nuclear.png); }
+.icon_old { background-image: url(ios/icon_old.png); }
+.icon_piano { background-image: url(ios/icon_piano.png); }
+.icon_play { background-image: url(ios/icon_play.png); }
+.icon_pressure { background-image: url(ios/icon_pressure.png); }
+.icon_prev { background-image: url(ios/icon_prev.png); }
+.icon_puzzle { background-image: url(ios/icon_puzzle.png); }
+.icon_restart { background-image: url(ios/icon_restart.png); }
+.icon_redo { background-image: url(ios/icon_redo.png); }
+.icon_settings { background-image: url(ios/icon_settings.png); }
+.icon_shake { background-image: url(ios/icon_shake.png); } 
+.icon_shit { background-image: url(ios/icon_shit.png); }
+.icon_share { background-image: url(ios/icon_share.png); }
+.icon_sound { background-image: url(ios/icon_sound.png); }
+.icon_starts { background-image: url(ios/icon_starts.png); }
+.icon_trash { background-image: url(ios/icon_trash.png); }
+.icon_animtype { background-image: url(ios/animtype.png); }
+.icon_email { background-image: url(ios/icon_email.png); }
+.icon_globe { background-image: url(ios/icon_globe.png); }
+.icon_r { background-image: url(ios/icon_r.png); }
+.icon_c { background-image: url(ios/icon_c.png); }
+.icon_bird { background-image: url(ios/icon_bird.png); }
+.icon_yes { background-image: url(ios/icon_yes.png); }
+.icon_no { background-image: url(ios/icon_no.png); }
+.icon_twitter { background-image: url(ios/icon_twitter.png); }
+.icon_facebook { background-image: url(ios/icon_facebook.png); }
+.icon_google { background-image: url(ios/icon_google.png); }
+
+/* header */
+#header .icons {
+	background-image: url(ios/icon_back.png);
+}
+
+/* memory */
+.memory_block {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.memory_block .icon {
+	background-image: url(ios/icon_shit.png);
+	width: 100%;
+	height: 100%;
+	display: compact;
+	margin: 0px auto;
+}
+
+/* category */
+#category_sound .play {	
+	background-image: url(ios/icon_play.png);
+	background-color: transparent;
+}
+#category_sound .prev {	
+	background-image: url(ios/icon_prev.png);
+	background-color: transparent;
+}
+#category_sound .next {	
+	background-image: url(ios/icon_forward.png);
+	background-color: transparent;
+}
+#category_values .graph_eq {
+	background-image: url(sets/graph_eq.jpg);
+}
+#category_values .graph_dirt {
+	background-image: url(sets/graph_dirt.jpg);
+}
+#category_values .graph_smell {
+	background-image: url(sets/graph_smell.jpg);
+}
+#category_values .graph_throw {
+	background-image: url(sets/graph_throw.jpg);
+}
+#category_values .graph_aware {
+	background-image: url(sets/graph_aware.jpg);
+}
+#category_values .s1 {	
+	background-image: url(sets/s10.png);
+}
+#category_values .s2 {	
+	background-image: url(sets/s20.png);
+}
+#category_values .s3 {	
+	background-image: url(sets/s30.png);
+}
+#category_values .s4 {	
+	background-image: url(sets/s40.png);
+}
+#category_values .s5 {	
+	background-image: url(sets/s50.png);
+}
+#category_values .e1 {	
+	background-image: url(sets/s11.png);
+}
+#category_values .e2 {	
+	background-image: url(sets/s21.png);
+}
+#category_values .e3 {	
+	background-image: url(sets/s31.png);
+}
+#category_values .e4 {	
+	background-image: url(sets/s41.png);
+}
+#category_values .e5 {	
+	background-image: url(sets/s51.png);
+}
+#category_fav.fav {	
+	background-image: url(ios/icon_fav.png);
+}
+#category_fav.del {	
+	background-image: url(ios/icon_trash.png);
+}
+
+/* listview */
+#list_holder .play {	
+	background-image: url(ios/icon_play.png);
+}
+#list_holder .fav {	
+	background-image: url(ios/icon_fav.png);
+}
+
+/* fartsay */
+#fartsays_game td div {
+	background-image: url(ios/icon_bass.png);
+}
+
+/* sweeper */
+table.fart-sweeper td.bombed {
+	background-image: url(ios/icon_hide.png);
+}
+
+/* hidefart */
+#hidefart_holder {
+}
+#hidefart_transport { 
+	background-image: url(bg/city.png);
+	background-position: left bottom;
+	background-repeat:  repeat-x;
+}
+
+#hidefart_transport .car {
+	background-image: url(ios/icon_car.png);
+	background-position: left top;
+	background-repeat: no-repeat;	
+}
+
+#fart_icon1 {
+	background-image: url(ios/icon_pressure.png);
+}
+#fart_icon2 {
+	background-image: url(ios/icon_detected.png);
+}
+#hidefart_woman {
+	background-image: url(woman/woman.png);
+}
+#hidefart_skirt1 {
+	background-image: url(woman/woman1.png);	
+}
+#hidefart_skirt2 {
+	background-image: url(woman/woman2.png);	
+}
+#hidefart_skirt3 {
+	background-image: url(woman/woman3.png);	
+}
+#hidefart_skirt4 {
+	background-image: url(woman/woman4.png);	
+}
+#hidefart_skirt5 {
+	background-image: url(woman/woman5.png);	
+}
+#hidefart_skirt6 {
+	background-image: url(woman/woman6.png);	
+}
+#hidefart_skirt7 {
+	background-image: url(woman/woman7.png);	
+}
+#hidefart_skirt8 {
+	background-image: url(woman/woman8.png);	
+}
+#hidefart_skirt9 {
+	background-image: url(woman/woman9.png);	
+}
+#hidefart_skirt10 {
+	background-image: url(woman/woman10.png);	
+}
+#hidefart_skirt11 {
+	background-image: url(woman/woman11.png);	
+}
+#hidefart_skirt12 {
+	background-image: url(woman/woman12.png);	
+}
+#hidefart_skirt13 {
+	background-image: url(woman/woman13.png);	
+}
+#hidefart_skirt14 {
+	background-image: url(woman/woman14.png);	
+}
+
+.animtype_org {
+	background-image: url(ios/animtype.png);	
+}
+
+.puzzle450_1 div.puzzles, .puzzles_bg  {
+	background-image: url(puzzle/puzzle_450_1.jpg);	
+}
+.smallbutton {
+	background-color: transparent;	
+}
