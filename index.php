@@ -15,11 +15,11 @@ if (is_localhost()) {
 	$app_farts =		"http://localhost/fartshd/app";
 	$mix_farts = 		"http://localhost/mixfartshd/";
 } else {
-	$actual_link = 		"http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-	$farts_link = 		"http://fartshd.com/";
-	$audio_farts = 		"https://anim.tech/media/mp3";
-	$app_farts =		"http://fartshd.com/app";
-	$mix_farts = 		"http://mix.fartshd.com/";
+	$actual_link = 		"https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+	$farts_link = 		"https://fartshd.com/";
+	$audio_farts = 		"https://fartshd.com/app/mp3";
+	$app_farts =		"https://fartshd.com/app";
+	$mix_farts = 		"https://mix.fartshd.com/";
 }
 	$google_play =		"https://play.google.com/store/apps/details?id=com.animtypecom.fartshd";
 	$facebook = 		"https://www.facebook.com/Farts-HD-1446433675580200/"
@@ -129,7 +129,7 @@ a.callout{position:absolute;z-index:11;left:calc(50% - 120px);-webkit-border-rad
 			<a href="<?php echo $app_farts; ?>#mac" class="tile transition">				
 				<amp-img src="img/tile-mac.jpg" width="220" height="150" layout="fixed" alt="smartphone"></amp-img>
 				<span class="grey">Let’s play it on</span>
-				<span class="grey top16 big">MAC</span>
+				<span class="grey top16 big">MacBook</span>
 				<span class="grey top32">Supported all MAC OS. Enjoy!</span>
 				<small class="badge new">v2.1</small>
 			</a>
